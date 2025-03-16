@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>loginScreen</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>0d81dbc8-bc54-4e50-a444-b5f93208f40f</testSuiteGuid>
+   <testCaseLink>
+      <guid>8c35c0e0-954d-4e00-be2d-296c9b060539</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Case Web OrangeHRM/ts_reusable/login_screen</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a8fa57f0-1cb9-45cb-affd-bbac5b727adc</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/dataLogin (1)</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>a8fa57f0-1cb9-45cb-affd-bbac5b727adc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>ef0eef6f-e75d-41fe-83d9-7893f7bb6f50</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a8fa57f0-1cb9-45cb-affd-bbac5b727adc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>f6940e80-4b53-4643-9d05-386135fddab6</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

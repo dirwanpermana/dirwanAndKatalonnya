@@ -6,11 +6,12 @@
    <UUID>e0849d60-dd87-4674-90e8-4496f2052bc4</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>10.1.0</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>10.1.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\Dirwan Permana\Katalon Studio\KatalonProject\KatalonProject.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
