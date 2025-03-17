@@ -23,13 +23,13 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.verifyElementText(findTestObject('Object Repository/LoginScreenValid/Page_OrangeHRM/h5_Login'), 'Login')
+WebUI.verifyElementText(findTestObject('Object Repository/repo_web_orangeHRM/LoginScreenValid/Page_OrangeHRM/h5_Login'), 'Login')
 
-WebUI.setText(findTestObject('Object Repository/LoginScreenValid/Page_OrangeHRM/input_Username_username'), Username)
+WebUI.setText(findTestObject('Object Repository/repo_web_orangeHRM/LoginScreenValid/Page_OrangeHRM/input_Username_username'), Username)
 
-WebUI.setText(findTestObject('Object Repository/LoginScreenValid/Page_OrangeHRM/input_Password_password'), Password)
+WebUI.setText(findTestObject('Object Repository/repo_web_orangeHRM/LoginScreenValid/Page_OrangeHRM/input_Password_password'), Password)
 
-WebUI.click(findTestObject('Object Repository/LoginScreenValid/Page_OrangeHRM/button_Login'))
+WebUI.click(findTestObject('Object Repository/repo_web_orangeHRM/LoginScreenValid/Page_OrangeHRM/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/LoginScreenValid/Page_OrangeHRM/h6_Dashboard'), 'Dashboard')
+WebUI.verifyElementText(findTestObject('Object Repository/repo_web_orangeHRM/LoginScreenValid/Page_OrangeHRM/h6_Dashboard'), 'Dashboard')
 

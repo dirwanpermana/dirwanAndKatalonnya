@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Logout_Screen/Page_OrangeHRM/i_Upgrade_oxd-icon bi-caret-down-fill oxd-userdropdown-icon'))
+WebUI.click(findTestObject('repo_web_orangeHRM/Logout_Screen/Page_OrangeHRM/i_Upgrade_oxd-icon bi-caret-down-fill oxd-userdropdown-icon'))
 
-WebUI.click(findTestObject('Logout_Screen/Page_OrangeHRM/a_Logout'))
+WebUI.click(findTestObject('repo_web_orangeHRM/Logout_Screen/Page_OrangeHRM/a_Logout'))
 
-WebUI.verifyElementText(findTestObject('Logout_Screen/Page_OrangeHRM/h5_Login'), 'Login')
+WebUI.verifyElementText(findTestObject('repo_web_orangeHRM/Logout_Screen/Page_OrangeHRM/h5_Login'), 'Login')
 
 WebUI.closeBrowser()
 

@@ -23,34 +23,34 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/Search_data/Page_OrangeHRM/input_Username_username'), 'Admin')
+WebUI.setText(findTestObject('Object Repository/repo_web_orangeHRM/Search_data/Page_OrangeHRM/input_Username_username'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Search_data/Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/repo_web_orangeHRM/Search_data/Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
 WebUI.delay(2)
 WebUI.comment("Step 1: Buka Halaman Home")
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Search_data/Page_OrangeHRM/button_Login'))
+WebUI.click(findTestObject('Object Repository/repo_web_orangeHRM/Search_data/Page_OrangeHRM/button_Login'))
 
 WebUI.delay(2)
 WebUI.comment("Step 2: Login ke halaman Admin")
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Search_data/Page_OrangeHRM/a_Admin'))
+WebUI.click(findTestObject('Object Repository/repo_web_orangeHRM/Search_data/Page_OrangeHRM/a_Admin'))
 
-WebUI.setText(findTestObject('Object Repository/Search_data/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'), 
+WebUI.setText(findTestObject('Object Repository/repo_web_orangeHRM/Search_data/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'), 
     'Admin')
 
 WebUI.delay(2)
 WebUI.comment("Step 3: Buka Menu Admin")
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Search_data/Page_OrangeHRM/button_Search'))
+WebUI.click(findTestObject('Object Repository/repo_web_orangeHRM/Search_data/Page_OrangeHRM/button_Search'))
 
-WebUI.verifyElementText(findTestObject('Search_data/Page_OrangeHRM/Page_OrangeHRM/div_UsernameAscendingDescending'), 'Username')
+WebUI.verifyElementText(findTestObject('repo_web_orangeHRM/Search_data/Page_OrangeHRM/Page_OrangeHRM/div_UsernameAscendingDescending'), 'Username')
 
-WebUI.verifyElementText(findTestObject('Search_data/Page_OrangeHRM/Page_OrangeHRM/div_pawan'), 'Admin')
+WebUI.verifyElementText(findTestObject('repo_web_orangeHRM/Search_data/Page_OrangeHRM/Page_OrangeHRM/div_pawan'), 'Admin')
 
 WebUI.delay(2)
 WebUI.comment("Step 4: Lakukan pencarian data Admin")

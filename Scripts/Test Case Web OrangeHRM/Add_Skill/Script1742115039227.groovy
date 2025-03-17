@@ -20,22 +20,22 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Test Case Web OrangeHRM/ts_reusable/login_screen'), [('Username') : findTestData('dataLogin (1)').getValue(1, 1)
         , ('Password') : findTestData('dataLogin (1)').getValue(2, 1)], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('AddSkill/Page_OrangeHRM/a_Admin'))
+WebUI.click(findTestObject('repo_web_orangeHRM/AddSkill/Page_OrangeHRM/a_Admin'))
 
-WebUI.click(findTestObject('AddSkill/Page_OrangeHRM/span_Qualifications'))
+WebUI.click(findTestObject('repo_web_orangeHRM/AddSkill/Page_OrangeHRM/span_Qualifications'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('AddSkill/Page_OrangeHRM/a_Skills'))
+WebUI.click(findTestObject('repo_web_orangeHRM/AddSkill/Page_OrangeHRM/a_Skills'))
 
-WebUI.click(findTestObject('AddSkill/Page_OrangeHRM/button_Add'))
+WebUI.click(findTestObject('repo_web_orangeHRM/AddSkill/Page_OrangeHRM/button_Add'))
 
-WebUI.setText(findTestObject('AddSkill/Page_OrangeHRM/input_Name_oxd-input oxd-input--focus'), 'IT SQA')
+WebUI.setText(findTestObject('repo_web_orangeHRM/AddSkill/Page_OrangeHRM/input_Name_oxd-input oxd-input--focus'), 'IT SQA')
 
-WebUI.setText(findTestObject('AddSkill/Page_OrangeHRM/textarea_Description_oxd-textarea oxd-textarea--active oxd-textarea--resize-vertical'), 
+WebUI.setText(findTestObject('repo_web_orangeHRM/AddSkill/Page_OrangeHRM/textarea_Description_oxd-textarea oxd-textarea--active oxd-textarea--resize-vertical'), 
     'Test dong')
 
-WebUI.click(findTestObject('AddSkill/Page_OrangeHRM/button_Save'))
+WebUI.click(findTestObject('repo_web_orangeHRM/AddSkill/Page_OrangeHRM/button_Save'))
 
 WebUI.callTestCase(findTestCase('Test Case Web OrangeHRM/ts_reusable/Logout_screen'), [:], FailureHandling.STOP_ON_FAILURE)
 
